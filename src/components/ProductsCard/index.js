@@ -20,7 +20,7 @@ const ProductCard = ({ product }) => {
         </button>
 
         <div className="thumb">
-          <img src={product.image} alt={`Image of ${product.title}`} />
+          <img src={product.image} alt={product.title} />
         </div>
 
         <div className="card-body">
