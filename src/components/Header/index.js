@@ -6,23 +6,23 @@ const Header = () => {
         <header >
            <div className='headercontainer'><div className='container'>
                 <div> 
-                <img src="/assests/screenshot 2025-11-01 144428.png" alt="E-Commerce Logo" className="logo" /></div>
+                <img src="/assests/screenshot 2025-11-01 144428.png" alt="Logo" className="logo" /></div>
                 <h1 className='logo-name'>LOGO</h1>
                 <div className="user-icon">
                     <button type='button' className='button'>
-                        <img src="/assests/Screenshot 2025-11-01 152411.png" alt="Cart Icon" className="icons" />   
+                        <img src="/assests/Screenshot 2025-11-01 152411.png" alt="search Icon" className="icons" />   
                     </button>
                     <button type='button' className='button'>
-                        <img src="/assests/Screenshot 2025-11-01 151942.png" alt="User Icon" className="icons" />
+                        <img src="/assests/Screenshot 2025-11-01 151942.png" alt="Love Icon" className="icons" />
                     </button>
                     <button type='button' className='button'>
-                        <img src="/assests/Screenshot 2025-11-01 153006.png" alt="User Icon" className="icons" />
+                        <img src="/assests/Screenshot 2025-11-01 153006.png" alt="cart Icon" className="icons" />
                     </button>
                     <button type='button' className='button'>
                         <img src="/assests/Screenshot 2025-11-01 153411.png" alt="User Icon" className="icons" />
                     </button>
                     <button type='button' className='button'>
-                        <img src="/assests/Screenshot 2025-11-01 153549.png" alt="User Icon" className="iconsEng" />
+                        <img src="/assests/Screenshot 2025-11-01 153549.png" alt="lang Icon" className="iconsEng" />
                     </button>
 
                 </div>

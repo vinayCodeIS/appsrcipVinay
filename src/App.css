@@ -107,6 +107,18 @@ select:focus, input:focus {
   margin-top: 1.25rem;
 }
 
+@media screen and (max-width:768px) {
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    margin-top: 1rem;
+  } 
+
+
+}
+
 /* -------------------- Product Area -------------------- */
 .product-area {
   min-height: 60vh;
@@ -235,6 +247,14 @@ select:focus, input:focus {
   background: #028f8b;
 }
 
+@media screen and (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 1rem;
+  } 
+  
+}
+
 /* -------------------- Messages -------------------- */
 .loader, .empty, .error {
   padding: 2rem;
@@ -244,7 +264,6 @@ select:focus, input:focus {
   border: 1px solid #eef2f7;
 }
 
-/* -------------------- Footer -------------------- */
 /* -------------------- Footer -------------------- */
 .site-footer {
   background: #111;
@@ -385,3 +404,5 @@ select:focus, input:focus {
     grid-template-columns: 1fr;
   }
 }
+
+
