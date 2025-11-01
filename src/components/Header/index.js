@@ -1,12 +1,14 @@
-     
+ 
+
 import './index.css'
 
 const Header = () => {      
     return (
         <header >
-           <div className='headercontainer'><div className='container'>
+           <div className='headercontainer'>
+            <div className='container'>
                 <div> 
-                <img src="/assests/screenshot 2025-11-01 144428.png" alt="Logo" className="logo" /></div>
+                <img src='/assests/image.jpg' alt="Logo" className="logo" /></div>
                 <h1 className='logo-name'>LOGO</h1>
                 <div className="user-icon">
                     <button type='button' className='button'>
