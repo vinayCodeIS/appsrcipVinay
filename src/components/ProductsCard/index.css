@@ -1,0 +1,11 @@
+.product-card { background: var(--card); border-radius: 12px; padding: 0.75rem; border: 1px solid #eef2f7; display: flex; flex-direction: column; }
+.card-inner { display: flex; flex-direction: column; height: 100%; }
+.thumb { display: flex; align-items: center; justify-content: center; min-height: 170px; }
+.thumb img { max-width: 140px; max-height: 140px; object-fit: contain; }
+.card-body { padding-top: 0.5rem; display: flex; flex-direction: column; gap: 0.5rem; flex: 1; }
+.card-title { font-size: 0.95rem; line-height: 1.2; }
+.card-desc { font-size: 0.85rem; color: var(--muted); }
+.card-footer { display: flex; justify-content: space-between; align-items: center; margin-top: auto; }
+.price { font-weight: 700; }
+.btn { background: var(--accent); color: #fff; border: none; padding: 0.45rem 0.6rem; border-radius: 8px; cursor: pointer; }
+

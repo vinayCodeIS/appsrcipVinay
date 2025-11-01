@@ -1,0 +1,2 @@
+.site-footer { background: #fff; border-top: 1px solid #e6e9ef; }
+.footer-inner { display: flex; justify-content: space-between; align-items: center; padding: 1rem 0; color: var(--muted); font-size: 0.9rem; }
